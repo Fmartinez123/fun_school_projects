@@ -3,7 +3,7 @@ This is a repository that consists of some of the most fun projects I have compl
 
 
 
-**ASTR 320: Astronomy Research**
+**ASTR 320: Astronomy Research 1**
 
 Course Description: Background and tools used in modern astrophysical research, including reduction of photometric and spectroscopic data, signal-to-noise and error calculations and order-of-magnitude estimates. \
 Taught by: Dr. Jennifer Marshall
@@ -14,6 +14,12 @@ Taught by: Dr. Jennifer Marshall
 Course Description: Advanced research techniques used by modern-day astronomers to obtain, process and analyze data from grounds and space-based telescopes. \
 Taught by: Dr. Jonelle Walsh \
 These projects consists of Tutorials that describe the assignments given to the class throughout the semester. 
+
+
+**Stars and ExtraSolar Planets**
+
+Course Descrition: How stars are born, how internal structure changes, nuclear fuel burned and ultimate fate; extrasolar planet detection, formation, properties and habitability \ 
+Taught by: Dr. Louis Stragari
 
 
 **PHYS 327-328: Undergraduate Lab**
