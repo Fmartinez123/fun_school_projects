@@ -1,0 +1,30 @@
+IRAF Commands:
+
+cd bias
+imcombine bias* masterbias.fits combine=median
+imcopy masterbias.fits ../flat/masterbias.fits
+cd ../flat/
+ls flat000000*.fit > flatlist
+imarith @flatlist - masterbias.fits sub//@flatlist
+ls sub*.fit > subflats
+imcombine @subflats masterflat.fits combine=median scale=median
+cp master* ../raw/
+cd ../raw/
+ls bfrmaster*.fits > imlist
+imarith @imlist - masterbias.fits sub//@imlist
+ls sub*.fits > sublist
+imarith @sublist / masterflat.fits f//@sublist
+
+
+!ds9 &
+display fsubbfrmaster001.fits 1
+tvmark 1 stars_v2.coo mark=circle radii=10 color=205
+noao
+digiphot
+daophot
+phot fsubbfrmaster*.fits stars_v2.coo rmaster_v2.mag apertures=4 
+centroid
+txdump rmaster_v2.mag ID,MAG,MERR,IMAGE > rmaster_phot_v2.dat
+yes
+hselect fsub*.fits fields=DATE-OBS > dateobs.txt
+yes
