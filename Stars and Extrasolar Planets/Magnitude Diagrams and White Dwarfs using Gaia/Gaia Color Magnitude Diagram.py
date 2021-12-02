@@ -19,9 +19,9 @@ cmap20 = []
 cmap50 = []
 
 
-Gaia_10pc = pd.read_csv("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/Gaia_10_arc_sec.csv")
-Gaia_20pc = pd.read_csv("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/Gaia_20_arc_sec.csv")
-Gaia_50pc = pd.read_csv("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/Gaia_50_arc_sec.csv")
+Gaia_10pc = pd.read_csv("Gaia_10_arc_sec.csv")
+Gaia_20pc = pd.read_csv("Gaia_20_arc_sec.csv")
+Gaia_50pc = pd.read_csv("Gaia_50_arc_sec.csv")
 
 #Appending data from each of the csv's
 
@@ -95,7 +95,7 @@ plt.ylim(16.5,0)
 plt.xlabel('bp-rp')
 plt.ylabel('Mv')
 
-plt.savefig("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/10pc Color-mag Diagram.png")
+plt.savefig("10pc-Color-mag Diagram.png")
 plt.show()
 
 #Plotting out the 20 Parsecs CMD
@@ -109,7 +109,7 @@ plt.colorbar(label = 'Distance (Parsecs)', spacing = 'proportional')
 plt.xlabel('bp-rp')
 plt.ylabel('Mv')
 
-plt.savefig("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/20pc Color-mag Diagram.png")
+plt.savefig("20pc-Color-mag Diagram.png")
 plt.show()
 
 #Plotting out the 50 Parsecs CMD
@@ -123,5 +123,5 @@ plt.colorbar(label = 'Distance (Parsecs)', spacing = 'proportional')
 plt.xlabel('bp-rp')
 plt.ylabel('Mv')
 
-plt.savefig("/Users/fmart/Google Drive/Semesters/Fall 2020/ASTR 401/HW1/50pc Color-mag Diagram.png")
+plt.savefig("50pc-Color-mag Diagram.png")
 plt.show()
