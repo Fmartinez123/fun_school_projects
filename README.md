@@ -13,7 +13,8 @@ Taught by: Dr. Jennifer Marshall
 
 Course Description: Advanced research techniques used by modern-day astronomers to obtain, process and analyze data from grounds and space-based telescopes. \
 Taught by: Dr. Jonelle Walsh \
-These projects consists of Tutorials that describe the assignments given to the class throughout the semester. 
+These projects consists of Tutorials that describe the assignments given to the class throughout the semester. \
+**[NOTE: I am currently working on uploading the code for each task completed, however it will take some time. This class was done with a vertual enviornment (Ubuntu) and I am still attempting to move over these large files onto something I can use now.]**
 
 
 **ASTR 401: Stars and ExtraSolar Planets**
