@@ -16,7 +16,7 @@ Taught by: Dr. Jonelle Walsh \
 These projects consists of Tutorials that describe the assignments given to the class throughout the semester. 
 
 
-**Stars and ExtraSolar Planets**
+**ASTR 401: Stars and ExtraSolar Planets**
 
 Course Descrition: How stars are born, how internal structure changes, nuclear fuel burned and ultimate fate; extrasolar planet detection, formation, properties and habitability \ 
 Taught by: Dr. Louis Stragari
