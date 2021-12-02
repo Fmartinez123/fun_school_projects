@@ -19,7 +19,7 @@ These projects consists of Tutorials that describe the assignments given to the 
 **ASTR 401: Stars and ExtraSolar Planets**
 
 Course Descrition: How stars are born, how internal structure changes, nuclear fuel burned and ultimate fate; extrasolar planet detection, formation, properties and habitability \
-Taught by: Dr. Louis Stragari \
+Taught by: Dr. Louis Stragari 
 
 
 **PHYS 327-328: Undergraduate Lab**
