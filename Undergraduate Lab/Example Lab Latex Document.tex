@@ -1,0 +1,237 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage[cmex10]{amsmath}
+\usepackage{array}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage{eqparbox}
+\usepackage{color} 
+\usepackage{tabularx}  
+\usepackage{epsfig}
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{wasysym} 
+\usepackage{epsfig}
+\usepackage{fancyhdr}
+\usepackage{float}
+
+\begin{document}
+\title{Pre Lab 4}  
+\author{Felix Martinez 502}
+\maketitle
+\section{\textbf{Introduction}}
+This lab will focus on the introduction and experimentation over
+basic transistor and op amp circuits. It will be split into two
+parts, the first part will compose of comparing the gain of 
+a regular High Pass Filter to that of a Transistor Buffer
+Circuit design. A High Pass Filter filters out any 
+frequencies below a calculated wavelength. However, depending 
+on your input voltage, the filtered out frequencies may not 
+have enough current to become useful in other electrical 
+components. This is why we are adding a transistor, a
+transistor takes in a small electrical current and releases a 
+larger current output, to hopefully increase the gain of the 
+circuit. The second part of the experiment will compose of 
+building two types of op amp circuits, the Inverting Op-Amp, 
+and the Non Inverting Op-Amp. For this section of the lab we 
+will also compare the gain vs. frequency from both of these 
+circuits and test if the placement of resistors would affect 
+their gain. Gain is the ratio between the input voltage and 
+the output voltage, a positive gain would give off a higher 
+output voltage than the input, or a gain higher than one, a 
+negative gain would give off a lower output voltage than the 
+input, giving a value lower than one. This experiment is conducted exclusively on 
+Multisim, therefore all of the measurments will be perfect and will amount to no error 
+in the final data.
+
+\section{\textbf{Experimental Setup/Diagrams}}
+To be clear, for all of the circuit diagrams with the $\Omega$ 
+notation, it stands for where I will be taking my measurments on the circuit design 
+software, Multisim. This experiment is conducted in AC, therefore the sine notation on the 
+circuit diagrams stands for AC Power, and the +/- notation on the circuit diagrams stands for
+DC Power, meant to power up the Transistors and Op Amps.
+
+\subsection{Transistor vs. Filter} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Filter.PNG}
+    \caption{High Pass Filter Circuit. $R_0$ = $8.2$ $k\Omega$, $C_0$ = $2.09$ nF.}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Transistor_Buffer.PNG}
+    \caption{Transistor Buffer Circuit. $R_0$ and $C_0$ are the 
+    same values as the \textbf{Figure 1} high pass filter circuit.}
+\end{figure}
+\subsection{Op-Amps} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Inverting_opamp.PNG}
+    \caption{Inverting Op-Amp circuit.}
+\end{figure} 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Noninverting_opamp.PNG}
+    \caption{Non Inverting Op-Amp circuit.}
+\end{figure}  
+
+\section{\textbf{Procedure}}
+\subsection{Transistor vs. Filter}
+    Arrange a capacitor and a resistor in series like in 
+\textbf{Figure 1}. Find the gain across the resistor by cycling through a large range 
+of frequencies to find how the gain changes when the frequency is increased. \newline
+
+$\indent$Next, attach the filter to a transistor with a 
+resistor placed in sequence after it, like in \textbf{Figure 2}.  Find the gain across the
+resistor after the transistor by cycling through the same range of frequencies that you 
+have done for the High Pass Filter. Rotate out this resistor and cycle through the same
+range of frequencies with at least 2 other resistors 
+with higher and lower values, the values we have chosen in this experiment are outline 
+in \textbf{Figure 5}. Finally, 
+graph the frequency vs. gain plot for the Transistor Buffer Circuit and the High Pass 
+Filter and compare the results.
+
+\subsection{Op-Amps}
+Begin by choosing an Op-Amp (in this experiment we will
+us the LF411 but any Op-Amp would do) and 2 sets of 2 different
+resistors, they will be called $R$ and $R'$. First, start by constructing the Inverting Op-Amp 
+circuit as designed in \textbf{Figure 3} using the $R$ set of resistors. Find the expected 
+gain of the circuit by using this equation:
+
+\begin{equation}
+    G = -\frac{R_1}{R_2}
+\end{equation}
+
+Compare this to the gain measurmentes of the circuit by cycling through
+a large range of frequencies in Multisim. Swap out 
+the resistors by changing their places in the circuit and repeat the procedure. 
+Next, bring in the second set, these will be denoted by using $R'$, and repeat the previous
+instructions. Finally, plot the gain vs. frequency graph and 
+compare the expected to the measured gain for both the 
+$R$ and $R'$ sets of resistors. \newline
+
+$\indent$ Next, construct the Non-Inverting Op-Amp circuit as
+designed in \textbf{Figure 4}. Find the expected gain of this
+circuit by using this equation:
+
+\begin{equation}
+    G = 1 + \frac{R_1}{R_2}
+\end{equation}
+
+Then compare this to the gain measurmentes of the circuit by cycling through a large
+range of frequencies in Multisim. Cyle through the 
+resistances as described in the Inverting Op-Amp section, and 
+plot the gain vs. frequency graphs for both $R$ and $R'$ and 
+compare.
+
+\section{\textbf{Data/Analysis}}
+\subsection{Transistor vs. Filter}
+    Below is data collected from the High Pass Filter Circuit outlined in 
+    \textbf{Figure 1} and the Transistor Buffer Circuits outlined in \textbf{Figure 2}.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{Transistor_Filter.PNG}
+        \caption{Gain with and without a transistor, with different resistances.}
+    \end{figure}
+
+The Gain of the filter circuit caps out at 1, and maintains that gain for every frequency after
+it reaches its maximum. The Transistors have a very similar relationship, however, they can only
+maintain its maximum gain for a prolonged range, after which, it dips down to a gain of 0.2 
+where it then stays for every frequency after the dip. All of the transistor circuits start
+their decline uniformly at frequencies of around $100,000,000$ Hz, this is important when 
+looking at their inclination. One can see a trend in which an increased resistance results 
+in a lower peak frequency, which then results in a longer range at a gain of 1. This also has an impact with lower resistances such as the $500 \Omega$ 
+resistor, that due to such a higher cuttoff frequency, it's range where the gain is maxed 
+may be small enough to where it may not be able to reach a gain of 1, like the other, 
+higher resistors. Finally, a result of powering on the transistor with the DC power supply
+does not allow the transistor circuits to fall back down to a gain of zero after the 
+transistor gets turned on at the higher frequencies. This is a result of the leftover
+current in the circuit from the DC power supply.
+
+\subsection{Op Amps}
+    Below are the Resistors that were used when conducting part B of this lab. Both 
+    $R_1$ and $R_2$ were used in the circuits outlined in \textbf{Figure 3} 
+    and \textbf{Figure 4}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{Resistors.PNG}
+        \caption{$R_1$ and $R_2$ values used in part B of the experiment.}
+    \end{figure}
+
+    Below Is the data for the Inverting Op-Amp Circuit as designed in \textbf{Figure 3}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{Inverting_expected_table.PNG}
+        \caption{Expected vs. Measured values of Gain for the Inverting Op-Amp Circuit.}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{Inverting_OpAmp_LF411.PNG}
+        \caption{Gain Vs Frequency of the LF411 Inverting Op-Amp with Resistors outlined in 
+        \textbf{Figure 6}.}
+    \end{figure}
+    
+    $\indent$ For the Inverting Op-Amp the measured order of the gain matches that of the expected
+    order, however, the measured values of the gain do not equal the expected values 
+    when using the Resistors in \textbf{Figure 6} and plugging their values into equation (1).
+    The gain decreases down
+    to zero at higher frequencies, this is due to the properties of Op-amps and that the circuit 
+    is in a close loop. Normally, Op-amps are very stable up to 1 MHz frequency, but after this
+    due to the limitations held by the internal components of the Op-Amp, higher frequencies can begin to 
+    oscillate the output lead, causing a ringing in the circuit. To avoid this, many Op-Amps,
+    like the LF411 we are using, have an internal capacitor to prevent frequencies above 1 MHz, 
+    making a low pass filter.
+    This relationship can be seen in the data as the gain of each circuit begins to deminish at
+    around 1 MHz frequency until it falls to a gain of zero.\newline
+
+    Below is the data for the Non-Inverting Op-Amp Circuit as designed in \textbf{Figure 4}.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{NonInverting_expected_table.PNG}
+        \caption{Expected vs. Measured values of Gain Table for the Non-Inverting Op-Amp}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{NonInverting_OpAmp_LF411.PNG}
+        \caption{Gain Vs Frequency of the LF411 Non-Inverting Op-Amp with Resistors outlined in 
+        \textbf{Figure 6}.}
+    \end{figure}
+    
+    When loooking at the data for the Non-Inverting Op-Amp, the first thing to notice is that
+    the measured gain does not change when flipping the $R_1$ and $R_2$ resistors, this characteristic 
+    is carried across both the $R$ and $R'$ sets of resistors. Much like the Inverting Op-Amp,
+    the measured order of the gain also matches that of expected when comparing the non flipped
+    $R$ and $R'$ values in this circuit. However, when 
+    plugging the values of $R$ and $R'$ into equation (2) the measured gain values are completely
+    off that of the expected values. Furthermore, like the Inverting Op-Amp,
+    the Non-Inverting Op-Amp follows the same rules of the gain
+    drop as outlined in the previous section, which involve a decrease in the gain beggining at 
+    around 1 MHz dropping to a gain of zero at extremly high frequencies.
+
+    \section{\textbf{Conclusion}}
+    In \textbf{Part A} of this lab, it was shown that when adding on a transistor to a High Pass 
+    Filter circuit, it shortens the range at which its gain is maximized. This relationship is 
+    also dependant on what size of a resistor is used after the implimentation of the transistor.
+    Resulting with the relationship that lower valued resistors, result in a less amount of time where 
+    its gain 
+    will be maximized, which, with a low enough resistance, could result in a gain less than $1$ at its highest. In 
+    \textbf{Part B} of this lab, it was shown that in Inverting Op-Amp Circuits, the order in 
+    which the resistors are placed matters. However, strangely this relationship was not observed
+    in the Non-Inverting Op-Amp Circuit. % this could be because...
+    Another unexpected reult of this lab was that the measured gain was not the same as the
+    expected gain, even though the order in which they fell from greatest to least were the 
+    same as expected. % this could be a result of...
+    However, this section of the lab was useful in understanding why closed loop Op-Amp circuits
+    act simliar to low pass filters, due to the limitations of the components inhabiting most
+    Op-Amps, the manufacturers must add on a capacitor to prevent the circuit from oscillating, 
+    giving off an unreliable output.
+\end{document}
