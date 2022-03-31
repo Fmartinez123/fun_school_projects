@@ -22,6 +22,11 @@ These projects consists of Tutorials that describe the assignments given to the 
 Course Descrition: How stars are born, how internal structure changes, nuclear fuel burned and ultimate fate; extrasolar planet detection, formation, properties and habitability \
 Taught by: Dr. Louis Stragari 
 
+**ASTR 403: Extragalactic Astronomy**
+
+Course Descrition: Physical makeup of individual galaxies and large scale structure in the universe; origin and eventual fate of the universe; interpretation of observational data as it relates to baryonic matter, Dark Matter and cosmological models with Dark Energy. \
+Taught by: Dr. Lifan Wang 
+
 
 **PHYS 327-328: Undergraduate Lab**
 
