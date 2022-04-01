@@ -38,4 +38,4 @@ This folder holds the lab reports that I enjoyed in my undergraduate physics lab
 **STAT 335: Principles of Data Science**
 
 Course Descrition: Theoretical foundations, algorithms and methods of deriving valuable insights from data; includes foundations in managing and analyzing data at scale, e.g. big data; data mining techniques and algorithms; exploratory data analysis; statistical methods and models; data visualization.  \
-Taught by: Dr. Shahina Rahman \
+Taught by: Dr. Shahina Rahman 
