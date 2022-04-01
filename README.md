@@ -33,3 +33,9 @@ Taught by: Dr. Lifan Wang
 Course Descrition: Laboratory experiments in modern physics and physical optics with an introduction to current, state-of-the-art recording techniques. \
 Taught by: Dr. George Welch \
 This folder holds the lab reports that I enjoyed in my undergraduate physics lab.
+
+
+**STAT 335: Principles of Data Science**
+
+Course Descrition: Theoretical foundations, algorithms and methods of deriving valuable insights from data; includes foundations in managing and analyzing data at scale, e.g. big data; data mining techniques and algorithms; exploratory data analysis; statistical methods and models; data visualization.  \
+Taught by: Dr. Shahina Rahman \
