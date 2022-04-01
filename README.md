@@ -5,7 +5,7 @@ This is a repository that consists of some of the most fun projects I have compl
 
 ## ASTR 320: Astronomy Research 1
 
-<\u>Course Description:<\u> *Background and tools used in modern astrophysical research, including reduction of photometric and spectroscopic data, signal-to-noise and error calculations and order-of-magnitude estimates.* \
+<u>Course Description:<u> *Background and tools used in modern astrophysical research, including reduction of photometric and spectroscopic data, signal-to-noise and error calculations and order-of-magnitude estimates.* \
 Taught by: **Dr. Jennifer Marshall**
 
 
