@@ -1,5 +1,5 @@
 # fun_school_projects
-This is a repository that consists of some of the most fun projects I have completed and done throughout my Physics undergraduate degree. All of these classes were taken at A&M Univeristy. Each course had a few highlighting assignments and I wanted to share how I tackled these intoductory questions. This is all my own work, but the assignments and questions that I tackle in each folder are the work of the professor assigned to each course.
+This is a repository that consists of some of the most enjoyable projects I have completed throughout my Physics undergraduate degree. All of these classes were taken at A&M Univeristy. Each course had a few highlighting assignments and I wanted to share how I tackled these intoductory questions. This is all my own work, but the assignments and questions that I tackle in each folder are the work of the professor assigned to the course (you can find them along with the couse description below).
 
 
 
